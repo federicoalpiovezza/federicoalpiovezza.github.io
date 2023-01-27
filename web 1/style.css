@@ -1,0 +1,23 @@
+img {
+       border-radius: 50%;
+}
+body{
+    
+    background-color: rgb(226, 234, 236);
+}
+.center-box{
+    display: flex;
+    justify-content: center;
+}
+.title{
+    color: rgb(255, 102, 0);
+    text-align: center;
+    font-size: 3x.large;
+    font-family: sans-serif;
+}
+.information{
+    color: rgb(0, 0, 0);
+    text-align: initial;
+    font-size: x-large;
+    font-family: sans-serif;
+}
