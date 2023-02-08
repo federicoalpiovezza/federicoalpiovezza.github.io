@@ -8,7 +8,7 @@ body{
     justify-content: center;
    }
    .title{
-    color: rgb(255, 102, 0);
+    color: rgb(255, 0, 0);
     text-align: center;
     font-size: 40px;
     font-family: sans-serif;
@@ -28,21 +28,18 @@ body{
    .desc{
        color: rgb(0, 0, 0);
        text-align-last: center;
-       font-size: 15px;
+       font-size: 20px;
        font-family: sans-serif;
    }
    .IMAGE{
      display: flex;
-     justify-content: space-around;
+     justify-content: space-evenly;
    }
    .My{
         color: rgb(0, 0, 0);
        text-align-last: center;
        font-size: 25px;
        font-family: sans-serif;
-   }
-   .banner{
-
    }
    .Mycont{
     color: rgb(0, 0, 0);
