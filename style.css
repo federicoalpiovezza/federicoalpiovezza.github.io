@@ -1,14 +1,11 @@
 
-body{
- 
-    background-color: rgb(226, 234, 236);
-   }
+
    .center-box{
     display: flex;
     justify-content: center;
    }
    .title{
-    color: rgb(255, 0, 0);
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 40px;
     font-family: sans-serif;
@@ -16,7 +13,7 @@ body{
    .information{
     color: rgb(0, 0, 0);
     text-align: center;
-    font-size: 20px;
+    font-size: 15px;
     font-family: sans-serif;
    }
    .aboutme{
@@ -34,11 +31,12 @@ body{
    .IMAGE{
      display: flex;
      justify-content: space-evenly;
+     position: relative;
    }
    .My{
         color: rgb(0, 0, 0);
        text-align-last: center;
-       font-size: 25px;
+       font-size: 20px;
        font-family: sans-serif;
    }
    .Mycont{
@@ -48,7 +46,6 @@ body{
     font-family: sans-serif;
    }
 .nav{
-    background-color: rgb(226, 234, 236);;
     color: #000000;
     list-style: none;
     text-align: center;
@@ -86,3 +83,16 @@ body{
     width: 100%;
     display: block;
 }
+img {
+    animation: fadeIn 5s;
+  } 
+
+  
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
